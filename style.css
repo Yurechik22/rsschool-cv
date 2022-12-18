@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: #333;
+line-height: 1.6;
+
+}
+
+*,
+*:before,
+*:after 
+{box-sizing: border-box;}
+
+.tra {
+width: 100%;
+height: 100vh;
+
+background: url("../rsschool-cv/images/template.jpg") center no-repeat;
+background-size: cover;
+background-size: cover;
+}
+
+.header{
+    width: 100%;
+position: absolute;
+z-index: 1000;
+font-size: 25px;
+color: aliceblue;
+text-align: right;
+padding-right: 40px;
+}
+
+.header_inn{
+display: flex;
+justify-content: flex-end;
+align-items: center;}
+ 
+.nav{font-size: 14px;
+text-transform: uppercase;}
+
+.nav_link{
+color: floralwhite;
+margin: 0 10px;}
+
+.footer {
+    display: grid;
+    
+    align-items: center;
+    padding: 20px 60px 20px 60px;
+    color: white;
+    background-color: #14191f;
+}
