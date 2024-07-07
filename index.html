@@ -1,1 +1,76 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yurechik</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./images/RS.ico">
+    <!-- Исправил ссылку на несуществующий CSS-файл -->
+    <!--<link rel="stylesheet" href="https://rs.school/"> -->
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <ul>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#summary">Summary</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="grid-container">
+        <section class="section" id="contacts">
+            <b>Контакты</b><br>
+            Tel: 03844621578<br>
+            Email: slesarev.yuriy@gmail.com<br>
+            Telegram: @yuriy<br>
+            GitHub: yuriy
+        </section>
+        <section class="section" id="summary">
+            <b>О себе</b><br>
+            СТУДИЯ "ДИЗАЙНПРЕСС" МЛАДШИЙ ГРАФИЧЕСКИЙ ДИЗАЙНЕР<br>
+            Выполняю задания по созданию графики для офлайн и онлайн макетов.<br>
+            Редактирую фотографии для клиентов и журналов, публикаций в социальных сетях.<br>
+            Упорядочиваю файлы компании.<br>
+            СТУДИЯ "ДИЗАЙНПРЕСС" СТАРШИЙ ГРАФИЧЕСКИЙ ДИЗАЙНЕР<br>
+            Выполняю задания по созданию графики для офлайн и онлайн макетов.<br>
+            Редактирую фотографии для клиентов и журналов, публикаций в социальных сетях.<br>
+            Юрий Сусликов<br>
+            Графический дизайнер
+        </section>
+        <section class="section" id="skills">
+            <b>Навыки</b><br>
+            Photoshop, GitHub, Figma, HTML, CSS
+        </section>
+        <section class="section" id="code">
+            <b>Пример кода</b><br>
+            <pre>
+document.addEventListener("DOMContentLoaded", () => {
+    const main = document.querySelector('main');
+    for (let i = 1; i <= 5; i++) {
+        const section = document.createElement('section');
+        section.className = 'section';
+        section.textContent = `Section ${i}`;
+        main.appendChild(section);
+    }
+});
+            </pre>
+        </section>
+        <section class="section" id="education">
+            <b>Образование</b><br>
+            Барнаульский университет
+        </section>
+    </main>    
+    <footer>
+        <p>Yurechik22</p>
+        <div id="RS">            
+            <a href="https://rs.school/" class="footer-icon" target="_blank">
+                <img src="./images/RS.png" alt="RS School">
+            </a> 
+        </div>
+    </footer>
+</body>
+</html>
