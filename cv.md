@@ -4,7 +4,7 @@
 
 - Email: [slesarev.yuriy@gmail.com](mailto:slesarev.yuriy@gmail.com)
 - GitHub: [Yurechik22](https://github.com/Yurechik22)
-- Discord: yuriy20
+- Discord: yuriy20 (доступен для звонков)
 - Локация: Мандал, Агдер, Норвегия
 
 ## О себе
