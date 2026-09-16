@@ -1,8 +1,8 @@
-# Юрий Слесарев
+# Юрий Соболев
 
 ## Контактная информация
 
-- Email: [slesarev.yuriy@gmail.com](mailto:slesarev.yuriy@gmail.com)
+- Email: [sobolev.yuriy@gmail.com](mailto:sobolevev.yuriy@gmail.com)
 - GitHub: [Yurechik22](https://github.com/Yurechik22)
 - Discord: yuriy20 (доступен для звонков)
 - Локация: Мандал, Агдер, Норвегия
