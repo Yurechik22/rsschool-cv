@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Юрий Слесарев — CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <img class="avatar" src="avatar.jpg" alt="Фото Юрия Слесарева" width="160" height="160">
+            <h1>Юрий Слесарев</h1>
+            <p class="role">Начинающий Fullstack-разработчик</p>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#about">О себе</a></li>
+                    <li><a href="#skills">Навыки</a></li>
+                    <li><a href="#code">Пример кода</a></li>
+                    <li><a href="#experience">Опыт</a></li>
+                    <li><a href="#education">Образование</a></li>
+                    <li><a href="#english">English</a></li>
+                    <li><a href="cv">Markdown-версия</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section id="contacts">
+                <h2>Контакты</h2>
+                <ul>
+                    <li>Email: <a href="mailto:slesarev.yuriy@gmail.com">slesarev.yuriy@gmail.com</a></li>
+                    <li>GitHub: <a href="https://github.com/Yurechik22">Yurechik22</a></li>
+                    <li>Discord: yuriy20</li>
+                    <li>Локация: Мандал, Агдер, Норвегия</li>
+                </ul>
+            </section>
+
+            <section id="about">
+                <h2>О себе</h2>
+                <p>
+                    Начинающий Fullstack-разработчик с инженерным и электротехническим опытом.
+                    До обучения на RS School занимался электромонтажом, диагностикой и настройкой
+                    автоматики (в том числе автоматика для ворот и приводов), работал с
+                    измерительным оборудованием — мультиметрами, тестерами аккумуляторов. Этот опыт
+                    научил меня системному подходу к диагностике проблем, аккуратности в документации
+                    и умению читать техническую документацию и схемы — эти же навыки сейчас помогают
+                    мне разбираться в новых технологиях программирования.
+                </p>
+                <p>
+                    Сильные стороны: внимательность к деталям, готовность разбираться в сложных
+                    технических вопросах "с нуля", самостоятельность в поиске решений по документации
+                    и мануалам, дисциплина в выполнении практических задач.
+                </p>
+                <p>
+                    Сейчас изучаю веб-разработку (HTML, CSS, JavaScript) на курсе RS School,
+                    параллельно продолжаю изучать норвежский язык, а также интересуюсь
+                    проектированием систем на солнечной энергии — планирую совмещать
+                    электротехнические знания с разработкой ПО для умного дома и автоматизации
+                    энергосистем.
+                </p>
+            </section>
+
+            <section id="skills">
+                <h2>Навыки</h2>
+                <ul>
+                    <li>Языки программирования: HTML, CSS, JavaScript (базовый уровень)</li>
+                    <li>Фреймворки/библиотеки: изучаются в рамках курса RS School</li>
+                    <li>Методологии: итеративное обучение через практические задания и код-ревью</li>
+                    <li>Системы контроля версий: Git, GitHub (ветки, коммиты, Pull Request)</li>
+                    <li>Инструменты разработки: VS Code, Chrome DevTools, W3C Validator</li>
+                    <li>Электротехнические навыки: диагностика по мультиметру, автоматика приводов и контроллеров</li>
+                </ul>
+            </section>
+
+            <section id="code">
+                <h2>Пример кода</h2>
+                <p>Задача: определить, является ли год високосным.</p>
+                <pre><code>function isLeapYear(year) {
+  return (year % 4 === 0 &amp;&amp; year % 100 !== 0) || year % 400 === 0;
+}
+
+console.log(isLeapYear(2024)); // true
+console.log(isLeapYear(2023)); // false
+console.log(isLeapYear(1900)); // false
+console.log(isLeapYear(2000)); // true</code></pre>
+            </section>
+
+            <section id="experience">
+                <h2>Опыт работы / Учебные проекты</h2>
+                <h3>CV на Markdown, HTML и CSS (текущий проект)</h3>
+                <p>Использованные навыки: Git, GitHub, Markdown, HTML, CSS, semantic HTML.</p>
+                <p>Ссылка на код: <a href="https://github.com/Yurechik22/rsschool-cv">github.com/Yurechik22/rsschool-cv</a></p>
+                <h3>Электромонтаж и автоматика ворот/приводов</h3>
+                <p>Настройка и диагностика систем автоматики, работа со схемами подключения.</p>
+                <p>Использованные навыки: чтение технической документации, диагностика по мультиметру, работа с приводами и контроллерами.</p>
+            </section>
+
+            <section id="education">
+                <h2>Образование</h2>
+                <ul>
+                    <li>Электротехническое образование / обучение (инженерное направление)</li>
+                    <li>Курс RS School — Fullstack Engineering (текущее обучение): Git, GitHub, Markdown, HTML, CSS, semantic HTML</li>
+                    <li>Самостоятельное изучение норвежского языка (структурированные уроки и разговорная практика)</li>
+                </ul>
+            </section>
+
+            <section id="english">
+                <h2>Английский язык</h2>
+                <p>Уровень: Intermediate (B1) — достаточно для чтения технической документации и обучающих материалов.</p>
+                <p>Практика: чтение технических мануалов и документации на английском, обучающие курсы.</p>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <a href="https://github.com/Yurechik22">GitHub: Yurechik22</a>
+            <p>&copy; 2026</p>
+            <a href="https://rs.school/" target="_blank" rel="noopener noreferrer">
+                <img class="rss-logo" src="rss-logo.svg" alt="Логотип RS School" width="40" height="40">
+            </a>
+        </footer>
+    </div>
+</body>
+</html>
