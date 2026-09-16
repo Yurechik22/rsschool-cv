@@ -3,5 +3,5 @@
 CV в формате Markdown:
 https://Yurechik22.github.io/rsschool-cv/cv
 
-Свёрстанная страница CV (после Части 3):
+Свёрстанная страница CV:
 https://Yurechik22.github.io/rsschool-cv/
